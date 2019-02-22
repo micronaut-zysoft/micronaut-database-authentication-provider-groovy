@@ -13,5 +13,9 @@ class Author implements GormEntity<Author> {
         name nullable:  false,blank: false,size: 0..20
     }
 
+    static mapping = {
+        book lazy: false
+    }
+
 
 }
