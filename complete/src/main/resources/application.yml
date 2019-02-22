@@ -4,7 +4,7 @@ micronaut:
   application:
     name: security # <1>
   security:
-    enabled: true # <2>
+    enabled: false # <2>
     endpoints:
       login:
         enabled: true # <3>
